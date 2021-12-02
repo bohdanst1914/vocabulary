@@ -1,0 +1,68 @@
+body{
+  margin: 0;
+  background: rgba(0, 0, 0, 0.1);
+}
+li, ul {
+  list-style-type: none ;
+  padding: 0;
+}
+.container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.vocabulary{
+  min-height: 360px;
+}
+.vocabulary-list{
+  display: flex;
+}
+.vocabulary_word{
+  min-width: 560px;
+  width: 100%;
+  font-size: 50px;
+  padding: 40px;
+  text-align: center;
+  background: wheat;
+  border-radius: 8px;
+  margin-bottom: 50px;
+ &:not(:last-child){
+   margin-right: 10px;
+ }
+}
+.check-word__input{
+  width: calc(100% - 40px);
+  padding: 20px;
+  font-size: 20px;
+  border-radius: 8px;
+  background: rgba(0, 0, 0, 0.01);
+}
+.next-word__button, .check-word__button{
+  margin-top: 20px;
+  float: right;
+  border: none;
+  font-size: 24px;
+  padding: 10px 20px;
+  border-radius: 4px;
+  background: rgba(255, 255, 0, 0.3);
+}
+.check-word__button{
+  float: left;
+}
+.finish{
+  display: none;
+  font-size: 50px;
+  font-weight: bold;
+  padding: 40px;
+  text-align: center;
+  background: rgba(0, 0, 0, 0.3);
+  border-radius: 8px;
+  margin-bottom: 50px;
+}
+.end{
+  display: block;
+}
+.stop{
+  display: none;
+}
