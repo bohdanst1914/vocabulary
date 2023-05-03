@@ -1,0 +1,13 @@
+.start-wrapper{
+    background: silver;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.content-item {
+    background: white;
+    height: 200px;
+    width: 200px;
+}

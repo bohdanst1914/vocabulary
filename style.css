@@ -37,6 +37,21 @@ li, ul {
   margin-right: 10px;
 }
 
+
+.vocabulary-buttons{
+  margin-top: 20px;
+}
+.next-word__button{
+  margin-left: 10px;
+}
+.show-word_text {
+  display: inline-block;
+  padding: 15px 20px;
+  font-size: 24px;
+  background: mediumaquamarine;
+  border-radius: 4px;
+}
+
 .check-word__input {
   width: calc(100% - 40px);
   padding: 20px;
@@ -45,19 +60,19 @@ li, ul {
   background: rgba(0, 0, 0, 0.01);
 }
 
-.next-word__button, .check-word__button {
-  margin-top: 20px;
+.forms-button {
   float: right;
   border: none;
   font-size: 24px;
   padding: 10px 20px;
   border-radius: 4px;
   background: rgba(255, 255, 0, 0.3);
+  cursor: pointer;
+}
+.forms-button:hover{
+  background: rgba(255, 255, 0, 0.8);
 }
 
-.check-word__button {
-  float: left;
-}
 
 .finish {
   display: none;
