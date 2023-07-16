@@ -142,6 +142,17 @@
     { "index": 459, "words_eng": "bring up", "translate": "виховувати (доглядати за)"},
     { "index": 491, "words_eng": "jealous of", "translate": "заздрити чомусь" },
     { "index": 495, "words_eng": "argue about", "translate": "посеречатись про"},
-    { "index": 505, "words_eng": "obtain", "translate": "отримувати, добиватись"}
+    { "index": 505, "words_eng": "obtain", "translate": "отримувати, добиватись"},
+
+    { "index": 772, "words_eng": "sour", "translate": "кислий" },
+    { "index": 773, "words_eng": "ancient", "translate": "давній" },
+    { "index": 777, "words_eng": "loose", "translate": "широкий, вільний, не точний"},
+    { "index": 780, "words_eng": "pile", "translate": "купа (чогось)" },
+    { "index": 781, "words_eng": "rough", "translate": "грибий (щось), неточний"},
+    { "index": 783, "words_eng": "silk", "translate": "шофк" },
+    { "index": 785, "words_eng": "smooth", "translate": "гладкий" },
+    { "index": 786, "words_eng": "stretch", "translate": "розтягувати" },
+    { "index": 787, "words_eng": "striped", "translate": "волосатий" },
+    { "index": 790, "words_eng": "tight", "translate": "тісний" }
   ]
 }

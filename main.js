@@ -18,6 +18,7 @@ const DBService = class {
         }
     }
     getTestData = () => {
+        showWord();
         return this.getData('database/all.json')
     }
 }
@@ -32,9 +33,9 @@ const showWord = () => {
     }
 }
 
-const renderWords = (response) => {
+const renderWords = (response, typeWords) => {
     let count = 0;
-    let wordsToWrite = response['33'];
+    let wordsToWrite = response[typeWords];
     const mixedWordsFalse = mix(wordsToWrite)
     const mixedWordsTrue = JSON.parse(JSON.stringify(mixedWordsFalse));
 
@@ -102,8 +103,7 @@ const renderWords = (response) => {
     });
 };
 
-new DBService().getTestData().then(renderWords);
-showWord();
+new DBService().getTestData().then((response) => renderWords(response, "IELTS 4"));
 
 const concatAndMix = (first, second) => {
     for (let i = 0; i < first.length; i++) {
